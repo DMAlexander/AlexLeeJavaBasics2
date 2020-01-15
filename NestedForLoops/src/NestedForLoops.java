@@ -13,12 +13,22 @@ public class NestedForLoops {
 			System.out.println(colors[i]);
 		}
 		
-		String[][] fancyColors ={ {"Red", "Blue", "Green"},
+		System.out.println("--------------------");
+		
+		String[][] fancyColors ={ {"Redyy", "Blueyy", "Greenyy"},
 				{"Redy", "Bluey", "Greeny"} };
 		
-		for(int i=0; i<2; i++) {
-			for(int j=0; j<3; j++) {
-				System.out.println(fancyColors[i][j]);
+		for(int row=0; row<2; row++) {
+			for(int column=0; column<3; column++) {
+				System.out.println(fancyColors[row][column]);
+			}
+		}
+		
+		System.out.println("------------------");
+		
+		for(int i=0; i<5; i++) {
+			for(int j=0; j<10; j++) {
+				System.out.println("i: " + i + " j: " + j);
 			}
 		}
 
